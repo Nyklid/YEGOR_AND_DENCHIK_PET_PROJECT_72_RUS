@@ -1,0 +1,2 @@
+# YEGOR_AND_DENCHIK_PET_PROJECT_72_RUS
+Калькулятор разноса лиц
