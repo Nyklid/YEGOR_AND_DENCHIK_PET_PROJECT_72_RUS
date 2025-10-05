@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace calc
 {
@@ -16,29 +16,30 @@ namespace calc
             switch (kall)
             {
                 case "+":
-                    Console.WriteLine($"Слажения: {checkInfo.addition(gavno, mocha)}");
+                    Console.WriteLine($"Слажения: {checkInfo.addition(gavno, mocha)}\nБУЯНОВ ЖИРНОЕ ЧМО КОГДА ТЫ УЖЕ ДОБАВИШЬ ЧРНГО НЕГРА У КОТОРОГО НА МАКСИМУМ БУДЕТ ВКАЧЧИНО ВЫНОСЛИВОСТЬ.");
                     break;
 
                 case "*":
-                    Console.WriteLine($"Умнажения: {checkInfo.multiply(gavno, mocha)}");
+                    Console.WriteLine($"Умнажения: {checkInfo.multiply(gavno, mocha)}\nБУЯНОВ ЖИРНОЕ ЧМО КОГДА ТЫ УЖЕ ДОБАВИШЬ ЧРНГО НЕГРА У КОТОРОГО НА МАКСИМУМ БУДЕТ ВКАЧЧИНО ВЫНОСЛИВОСТЬ.");
                     break;
 
                 case "/":
-                    Console.WriteLine($"Деления: {checkInfo.divide(gavno, mocha)}");
+                    Console.WriteLine($"Деления: {checkInfo.divide(gavno, mocha)}\nБУЯНОВ ЖИРНОЕ ЧМО КОГДА ТЫ УЖЕ ДОБАВИШЬ ЧРНГО НЕГРА У КОТОРОГО НА МАКСИМУМ БУДЕТ ВКАЧЧИНО ВЫНОСЛИВОСТЬ.");
                     break;
 
                 case "%":
-                    Console.WriteLine($"Астатак с писи: {checkInfo.modulo(gavno, mocha)}");
+                    Console.WriteLine($"Астатак с писи: {checkInfo.modulo(gavno, mocha)}\nБУЯНОВ ЖИРНОЕ ЧМО КОГДА ТЫ УЖЕ ДОБАВИШЬ ЧРНГО НЕГРА У КОТОРОГО НА МАКСИМУМ БУДЕТ ВКАЧЧИНО ВЫНОСЛИВОСТЬ.");
                     break;
 
                 case "-":
-                    Console.WriteLine($"Дешовое вычитос: {checkInfo.subtraction(gavno, mocha)}");
+                    Console.WriteLine($"Дешовое вычитос: {checkInfo.subtraction(gavno, mocha)} \nБУЯНОВ ЖИРНОЕ ЧМО КОГДА ТЫ УЖЕ ДОБАВИШЬ ЧРНГО НЕГРА У КОТОРОГО НА МАКСИМУМ БУДЕТ ВКАЧЧИНО ВЫНОСЛИВОСТЬ.");
                     break;
 
                 default:
-                    Console.WriteLine($"{disciprtion}");
+                    Console.WriteLine($"{disciprtion}\nБУЯНОВ ЖИРНОЕ ЧМО КОГДА ТЫ УЖЕ ДОБАВИШЬ ЧРНГО НЕГРА У КОТОРОГО НА МАКСИМУМ БУДЕТ ВКАЧЧИНО ВЫНОСЛИВОСТЬ.");
                     break;
             }
+
             Console.ReadKey();
         }
     }
